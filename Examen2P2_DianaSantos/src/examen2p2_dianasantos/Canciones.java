@@ -1,13 +1,16 @@
 
 package examen2p2_dianasantos;
 
+import java.util.ArrayList;
+
 
 public class Canciones extends Albums{
     protected String nombre;
     protected String artista;
     protected int duracion;
     protected String genero;
-
+    protected ArrayList<Albums> albumnes = new ArrayList();
+    
     public Canciones() {
         super();
     }
